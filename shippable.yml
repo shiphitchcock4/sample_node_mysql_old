@@ -21,6 +21,7 @@ before_script:
   - mysql -e 'create database if not exists test;'
 
 script:
+  - npm install --dev
   - npm test
 
 # Generate coverage report with istanbul
