@@ -20,7 +20,7 @@ before_script:
   - mkdir -p shippable/codecoverage
   - mysql -e 'create database if not exists test;'
 install:
-  - npm install
+  - npm install --dev
 
 script:
 
