@@ -21,7 +21,7 @@ before_script:
   - mysql -e 'create database if not exists test;'
 install:
   - npm install --dev
-
+    
 script:
       
   - npm test
