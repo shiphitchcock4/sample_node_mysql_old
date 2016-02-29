@@ -5,7 +5,7 @@ node_js:
 
 services:
   - mysql
-
+  
 # For xunit-file module to put results in shippable folder
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
